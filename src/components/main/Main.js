@@ -5,7 +5,10 @@ import "./Main.css"
 function Main () {
     return(
        <div className="main">
+          <div className="bg-img">
           <Navigation />
+          </div>
+          
        </div>
     )
 }

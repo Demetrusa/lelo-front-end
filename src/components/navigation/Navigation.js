@@ -3,12 +3,8 @@ import "./Navigation.css"
 import logo from "../../images/Layer_-1.svg"
 import globe from "../../images/globe.svg"
 import Button from "../button/Button";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 const Navigation = () => {
-    const globeLogo = <FontAwesomeIcon icon="fa-solid fa-globe" />
-
     return (
         <div className="nav">
             <div className="nav-image">

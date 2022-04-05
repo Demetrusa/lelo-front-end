@@ -7,16 +7,14 @@
 .navigation ul {
     display: flex;
     align-items: center;
-
+    flex-wrap: wrap;
   
 }
 .nav{
     display: flex;
-    margin-top: 53px;
     justify-content: flex-end;
     
 }
-
 .navigation{
     border: 1px solid #FFCA05;
     background-color: #FFCA05;
@@ -25,6 +23,8 @@
     border-radius:45px 0 0 45px;
     display: flex;
     align-items: center;
+    margin-top: 53px;
+    
 }
 #nav-logo{
     display: flex;
@@ -34,4 +34,5 @@
 }
 .nav-image{
     margin-right: 60px;
+    margin-top: 53px;
 }
