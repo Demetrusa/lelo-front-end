@@ -17,16 +17,20 @@
     
 }
 
-#globefont{
-    color: red;
-}
 .navigation{
     border: 1px solid #FFCA05;
     background-color: #FFCA05;
-    max-width: 1564px;
-    width: 100%;
+    width: 1564px;
     height: 84px;
     border-radius:45px 0 0 45px;
+    display: flex;
+    align-items: center;
+}
+#nav-logo{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 159px;
+    margin-left: 22px;
 }
 .nav-image{
     margin-right: 60px;

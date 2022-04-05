@@ -12,13 +12,14 @@ const Navigation = () => {
     return (
         <div className="nav">
             <div className="nav-image">
-                <img src={logo} alt="showLogo" />
+                <img src={logo} alt="showLogo" /> 
             </div>
                 <div className="navigation">
-                <img src={globe} alt="show globe"  id="nav-logo" />
+                    <div className="globe-logo">
+                        <img src={globe} alt="show globe"  id="nav-logo" />
+                    </div>
                     <nav>
                         <ul>
-                            <li>{globeLogo}</li>
                             <li>მთავარი</li>
                             <li>სიახლეები</li>
                             <li>სტრუქტურა</li>
