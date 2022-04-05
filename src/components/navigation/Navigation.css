@@ -1,0 +1,33 @@
+.navigation li {
+    font-size: 16px;
+    display: flex;
+    padding-left: 62px;
+
+}
+.navigation ul {
+    display: flex;
+    align-items: center;
+
+  
+}
+.nav{
+    display: flex;
+    margin-top: 53px;
+    justify-content: flex-end;
+    
+}
+
+#globefont{
+    color: red;
+}
+.navigation{
+    border: 1px solid #FFCA05;
+    background-color: #FFCA05;
+    max-width: 1564px;
+    width: 100%;
+    height: 84px;
+    border-radius:45px 0 0 45px;
+}
+.nav-image{
+    margin-right: 60px;
+}
