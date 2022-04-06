@@ -2,13 +2,13 @@ import { faBox } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import "./TextContent.css";
 import dataPicker  from "../../images/datapicker.svg"
-import contenPic from "../../images/Rectangle 91.svg"
-const TextContent = () => {
+
+const TextContent = ({logo, title}) => {
     return(
         <div className="textbox">
             <div className="freeDiv"></div>
             <div className="ContentImg">
-                <img src={contenPic} alt="" />
+                <img src={logo} alt="" />
 
             </div>
             <div className="text-content-padding">
@@ -17,7 +17,7 @@ const TextContent = () => {
                 <h4>10 feb 2022</h4>
             </div>
             <div className="textbox-content">
-                <h2>ლორემ იპსუმღორებმა</h2>
+                <h2>{title}</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, 
                 when an unknown printer took a galley of type and scrambled it to make a type
