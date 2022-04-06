@@ -40,9 +40,9 @@
   background-color: #FFCA05;
   color: #FFFFFF;
   font-size: 28px;
-  border-color: #FFCA05;
-  border-bottom: #FFCA05;
-  border-right: #FFCA05;
+  border: none;
+  outline: none;
+  cursor: pointer;
 
 }
 
