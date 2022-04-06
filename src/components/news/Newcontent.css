@@ -8,7 +8,8 @@
     margin-top: 149px;
     display: flex;
     align-items: center;
-    
+    padding-top: 55px;
+    padding-bottom: 55px;
 
 }
 .circle {
@@ -26,4 +27,8 @@
     max-width: 1200px;
     margin: 0 auto;
 }
-  
+.content-Boxes {
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
