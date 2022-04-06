@@ -3,4 +3,46 @@
     height:797px ;
     background-repeat: no-repeat;
     background-position-x: right;
+    width: 988px;
+    /* position: absolute;
+    right: 0; */
 }
+.main {
+  max-width: 1710px;
+  margin-left: 360px;
+  display: flex;
+  justify-content: flex-end;
+}
+.heading{
+  margin-right: 90px;
+}
+.heading-content h1 {
+  font-size: 62px;
+  max-width: 361px;
+  line-height: 70px;
+}
+.heading-text {
+  max-width: 514px;
+
+}
+.heading-text p {
+  font-size: 18px;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+.moreText{
+  display: none;
+}
+.read-more-btn {
+  width: 369px;
+  height: 90px;
+  border-radius: 45px;
+  background-color: #FFCA05;
+  color: #FFFFFF;
+  font-size: 28px;
+  border-color: #FFCA05;
+  border-bottom: #FFCA05;
+  border-right: #FFCA05;
+
+}
+
