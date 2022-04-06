@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-position-x: right;
     width: 988px;
+    border-radius: 25px;
     /* position: absolute;
     right: 0; */
 }
@@ -45,4 +46,3 @@
   cursor: pointer;
 
 }
-
