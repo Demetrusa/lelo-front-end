@@ -1,0 +1,24 @@
+.plan-text{
+    max-width: 1920px;
+}
+.plan-heading {
+    max-width: 751px;
+    margin: 0 auto;
+    margin-top: 127px;
+    margin-bottom: 127px;
+    
+}
+.plan-heading h2{
+    font-size: 54px;
+    color: black;
+}
+.plan-text{
+    color: #FFCA05;
+    font-size: 54px;
+}
+.donation{
+    max-width: 1250px;
+    height: 342px;
+    margin: 0 auto;
+
+}
