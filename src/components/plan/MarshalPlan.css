@@ -12,15 +12,15 @@
     font-size: 54px;
     color: black;
 }
-.plan-text{
-    color: #FFCA05;
-    font-size: 54px;
-}
+
 .donation{
     max-width: 1250px;
     height: 342px;
     margin: 0 auto;
     margin-bottom: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
 
 }
 .donation-calculator{
@@ -110,6 +110,7 @@
     font-size: 18px;
     padding-bottom: 40px;
     padding-top: 10px;
+    color: #221F1F;
 }
 .team-read-more {
     width: 369px;

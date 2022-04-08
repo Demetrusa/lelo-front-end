@@ -6,6 +6,7 @@ import "./Main.css"
 function Main () {
     return(
        <div className="main">
+          <Navigation />
           <div className="heading">
              <div className="heading-content"> 
                 <h1>გაეცანით მარშალის გეგმას</h1>
