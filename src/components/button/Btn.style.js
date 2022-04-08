@@ -13,8 +13,5 @@ export const Btn = style.button`
     cursor:pointer;
     border:none;
 `;
-export const Title = style.h2`
-    font-size:29px;
-    color.black
-`
+
 //     background-color: ${(props) => (props.color ? "#FFCA05": "#FFFFFF")}

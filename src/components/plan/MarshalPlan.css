@@ -20,5 +20,48 @@
     max-width: 1250px;
     height: 342px;
     margin: 0 auto;
+    margin-bottom: 120px;
 
+}
+.donation-calculator{
+    max-width: 1580px;
+    display: flex;
+    margin: 0 auto; 
+    background-color: #FFCA05;
+    color: #ffffff;
+    border-radius: 133px;
+    height: 206px;
+}
+.calculator-title {
+    max-width: 591px;
+    width: 100%;
+    
+}
+.calculator-title h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 54px;
+    padding-top: 75px;
+}
+.donation-amount{
+    width: 705px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 63px 142px 62px 142px;
+    
+}
+.donation-example {
+    width: 989px;
+    background-color: black;
+    border-radius: 133px;
+    
+}
+.donation-amount div {
+    border: 2px solid #ffffff;
+    padding: 12px 53px 17px 60px;
+    border-radius: 60px;
+    margin-left: 20px;
 }

@@ -16,13 +16,25 @@ const MarshalPlan = () => {
                 <h2>ლელოს <span className="plan-text">მარშალის გეგმა</span></h2>
             </div>
             <div className="donation">
-            <Btn  color={"#FFCA05"}>ეკონომიკა</Btn>
-            <Btn >უსაფრთხოება</Btn>
-            <Btn >კულტურა და ჯანდაცვა</Btn>
-            <Btn  >განათლება</Btn>
-            <Btn >კულტურა და ჯანდაცვა</Btn>
-            <Btn  >განათლება</Btn>
-   
+                <Btn  color={"#FFCA05"}>ეკონომიკა</Btn>
+                <Btn >უსაფრთხოება</Btn>
+                <Btn >კულტურა და ჯანდაცვა</Btn>
+                <Btn  >განათლება</Btn>
+                <Btn >კულტურა და ჯანდაცვა</Btn>
+                <Btn  >განათლება</Btn>
+            </div>
+            <div className="donation-calculator">
+                <div className="calculator-title">
+                    <h2>დონაცია</h2>
+                </div>
+                <div className="donation-example">
+                    <div className="donation-amount">
+                        <div>10</div>
+                        <div>20</div>
+                        <div>50</div>
+                        <div>100</div>
+                    </div>
+                </div>
             </div>
         </div>
     )
