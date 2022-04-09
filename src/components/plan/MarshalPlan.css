@@ -51,8 +51,11 @@
     justify-content: center;
     align-items: center;
     margin: 63px 142px 62px 142px;
+    font-size: 40px;
     
 }
+
+
 .donation-example {
     width: 989px;
     background-color: black;
@@ -64,6 +67,9 @@
     padding: 12px 53px 17px 60px;
     border-radius: 60px;
     margin-left: 20px;
+}
+.donation-amount div:hover{
+background-color: #FFCA05;
 }
 .team-bg-img {
     background-image: url("../../images/Rectangle 155.svg");
@@ -127,3 +133,4 @@
  width: 920px;
  padding-left: 360px;
 }
+

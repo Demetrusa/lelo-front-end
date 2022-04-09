@@ -10,6 +10,7 @@ function App() {
       <Main />
       <Newcontent />
       <MarshalPlan />
+
     </div>
   );
 }

@@ -15,12 +15,7 @@ const MarshalPlan = () => {
                 <h2>ლელოს <span>მარშალის გეგმა</span></h2>
             </div>
             <div className="donation">
-                {/* <Btn  color={"#FFCA05"}>ეკონომიკა</Btn>
-                <Btn >უსაფრთხოება</Btn>
-                <Btn >კულტურა და ჯანდაცვა</Btn>
-                <Btn  >განათლება</Btn>
-                <Btn >კულტურა და ჯანდაცვა</Btn>
-                <Btn  >განათლება</Btn> */}
+  
                 <Button text="ეკონომიკა" image={buttonLogo}/>
                 <Button text="ეკონომიკა"/>
                 <Button text="ეკონომიკა"/>
