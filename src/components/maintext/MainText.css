@@ -1,0 +1,50 @@
+.team-section{
+    margin-top: 140px;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.team-heading{
+    display: flex;
+    max-width: 480px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 31px;
+
+}
+.team-heading h2{
+    font-size: 54px;
+    color: #221F1F;
+}
+.circle2 {
+    background-color: #FFCA05;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+.text-side{
+    max-width: 514px;
+}
+.text-side p{
+    font-size: 18px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    color: #221F1F;
+}
+.team-read-more {
+    width: 369px;
+    height: 90px;
+    border-radius: 45px;
+    background-color: #FFCA05;
+    color: #FFFFFF;
+    font-size: 28px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.team-text-content{
+ width: 920px;
+ padding-left: 360px;
+}
+
