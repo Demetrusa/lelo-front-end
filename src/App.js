@@ -1,4 +1,5 @@
 import './App.css';
+import Contact from './components/contact/Contact';
 import Main from './components/main/Main';
 import Newcontent from './components/news/Newcontent';
 import MarshalPlan from './components/plan/MarshalPlan';
@@ -10,7 +11,7 @@ function App() {
       <Main />
       <Newcontent />
       <MarshalPlan />
-
+      <Contact />
     </div>
   );
 }

@@ -83,3 +83,6 @@ background-color: #FFCA05;
     display: flex;
     justify-content: space-between;
 }
+#heading-color{
+    color: #FFCA05;
+}

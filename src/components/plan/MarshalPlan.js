@@ -8,12 +8,13 @@ import buttonLogo4 from "../../images/Group143.png"
 import buttonLogo5 from "../../images/Group143.png"
 import buttonLogo6 from "../../images/Group143.png"
 import MainText from "../maintext/MainText";
+import Contact from "../contact/Contact";
 
 const MarshalPlan = () => {
     return (
         <div className="plan-text">
             <div className="plan-heading">
-                <h2>ლელოს <span>მარშალის გეგმა</span></h2>
+                <h2>ლელოს <span id="heading-color">მარშალის გეგმა</span></h2>
             </div>
             <div className="donation">
   

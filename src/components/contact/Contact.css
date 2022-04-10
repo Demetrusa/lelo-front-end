@@ -1,0 +1,70 @@
+.cotact-circle {
+    background-color: #FFCA05;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.contact-left-text h2{
+    font-size: 54px;
+    line-height: 72px;
+}
+.contact-left-text{
+    display: flex;
+    align-items: center;
+}
+.contact-left-wrap{
+    width: 50%;
+}
+.contact-info{
+    max-width: 482px;
+    margin-top: 36px;
+}
+.contact-info h3 {
+    padding-bottom: 20px;
+    font-size: 18px;
+
+}
+#number-span{ 
+    color: #FFCA05;
+    font-weight: bold;
+}
+#email-span{
+    color: #FFCA05;
+    font-weight: bold;
+}
+.registration-form input {
+    max-width: 136px;
+    height: 35px;
+    font-size: 13px;
+    font-weight: 100;
+    border-radius: 18px;
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.20);
+    border:none ;
+    padding-left:5px;
+    color: #A7A7A7;
+}
+#TextArea{
+    width: 529.93px;
+    height: 76px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.20);
+    border: none;
+    color: #A7A7A7;
+    margin-top: 39px;
+}
+#lastName{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.contact-right-wrap{
+    width: 50%;
+}
+.contact-right-wrap iframe{
+    width: 100%;
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.20);
+
+}
+.contact-wrap{
+    display: flex;
+    flex-direction: row;
+}
