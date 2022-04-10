@@ -71,14 +71,6 @@
 .donation-amount div:hover{
 background-color: #FFCA05;
 }
-.team-bg-img {
-    background-image: url("../../images/Rectangle 155.svg");
-    height: 575px;
-    background-repeat: no-repeat;
-    width: 960px;
-    background-position: center;
-    background-size: cover;
-}
 .text-side{
     display: flex;
     justify-content: space-between;

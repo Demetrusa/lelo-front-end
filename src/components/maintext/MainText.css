@@ -3,18 +3,18 @@
     margin-bottom: 90px;
     display: flex;
     justify-content: space-between;
+    max-width: 1920px;
 }
 .team-heading{
     display: flex;
-    max-width: 480px;
-    justify-content: space-between;
     align-items: center;
     margin-bottom: 31px;
 
 }
-.team-heading h2{
+.Maintext-heading{
     font-size: 54px;
     color: #221F1F;
+    padding-left: 20px;
 }
 .circle2 {
     background-color: #FFCA05;
@@ -26,7 +26,7 @@
 .text-side{
     max-width: 514px;
 }
-.text-side p{
+.maintext-info-color{
     font-size: 18px;
     padding-bottom: 40px;
     padding-top: 10px;
@@ -44,8 +44,31 @@
     cursor: pointer;
 }
 .team-text-content{
- width: 920px;
- padding-left: 360px;
+    width: 50%;
+   padding: 97px 47px 104px 356px; 
+
 }
-
-
+.team-bg{
+  width: 50%;
+}
+.team-bg-image{
+    width: 100%;
+}
+.main-wrap {
+    margin-top: 140px;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1920px;
+    background-color: #221F1F;
+}
+.color{
+    color: #FFFFFF;
+    font-size: 54px;
+}
+.color-text{
+    color: #FFFFFF;
+    font-size: 18px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}

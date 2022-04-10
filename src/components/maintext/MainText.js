@@ -1,16 +1,18 @@
 import React from "react";
 import "./MainText.css";
+import mainTextImg from "../../images/Rectangle 155.svg";
 
-const MainText = () =>{
+
+const MainText = ({image,background,text }) =>{
     return(
-        <div className="team-section">
+        <div className={background ? "main-wrap" : "team-section"} >
                 <div className="team-text-content">
                     <div className="team-heading">   
                         <div className="circle2"></div>
-                        <h2>ჩვენს შესახებ</h2>
+                        <h2 className={background ? "color" : "Maintext-heading"}>{text}</h2>
                     </div>
                     <div className="text-side">
-                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s 
+                    <p className={background ? "color-text" : "maintext-info-color"}> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s 
                         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
                         it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic 
                         typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of <span className="moreText">Letraset 
@@ -25,8 +27,8 @@ const MainText = () =>{
                     </div>
                     <button className="team-read-more">ვრცლად</button>
                 </div>
-                <div className="team-bg-img">
-
+                <div className="team-bg">
+                    <img src={image} alt="write img" className="team-bg-image"/>
                 </div>
             </div>
     )

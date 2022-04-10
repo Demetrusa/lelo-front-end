@@ -2,13 +2,10 @@ import React from "react";
 import Button from "../button/Button";
 import "./MarshalPlan.css";
 import buttonLogo from "../../images/economic.svg"
-import buttonLogo2 from "../../images/Group143.png"
-import buttonLogo3 from "../../images/Group143.png"
-import buttonLogo4 from "../../images/Group143.png"
-import buttonLogo5 from "../../images/Group143.png"
-import buttonLogo6 from "../../images/Group143.png"
 import MainText from "../maintext/MainText";
 import Contact from "../contact/Contact";
+import mainTextImg from "../../images/Rectangle 155.svg";
+import mainTextBG from "../../images/Rectangle 206.png";
 
 const MarshalPlan = () => {
     return (
@@ -38,7 +35,8 @@ const MarshalPlan = () => {
                     </div>
                 </div>
             </div>
-            <MainText />
+            <MainText  image={mainTextImg} text={"ჩვენს შესახებ"}/>
+            <MainText  image={mainTextBG } background={true}  text={"შიდა არჩევნები"}/>
         </div>
     )
 }
