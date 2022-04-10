@@ -1,0 +1,51 @@
+.footer-wrap{
+    width: 100%;
+    background-color: #221F1F;
+    color: #FFFFFF;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-conten h2{
+    font-size: 15px;
+}
+.footerIcons {
+    width:13px;
+   height: 13px;
+   margin: 5px;
+}
+.footer-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 140px;
+}
+.footer-border-div{
+    width: 26.37px;
+    height: 26.37px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    width: 50%;
+}
+.lelo-logo{
+    display: flex;
+    align-items: center;
+}
+#linkden-img{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
