@@ -1,9 +1,9 @@
 import React from "react";
 import TextContent from "../text-content/TextContent";
 import  "./Newcontent.css"
-import contentImg from "../../images//Rectangle 91.svg"
-import contentImg2 from "../../images/Rectangle 171.svg"
-import contentImg3 from "../../images/Rectangle 173.svg"
+import parlament from "../../images//Rectangle 91.svg"
+import coliseum from "../../images/Rectangle 171.svg"
+import stairs from "../../images/Rectangle 173.svg"
 
 const Newcontent = () => {
     return (
@@ -14,15 +14,15 @@ const Newcontent = () => {
             </div>
             <div className="content-Boxes">
                 <TextContent
-                 logo={contentImg} 
+                 logo={ parlament} 
                  title={'ლორემ იპსუმღორებმა'}
                 />
                 <TextContent 
-                logo={contentImg2}
+                logo={ coliseum}
                 title={'ლორემ იპსუმღორებმა შევჩერდი '}/>
                 <TextContent
                 title={'ლორემ იპსუმღორებმა შევჩერდი'}
-                 logo={contentImg3}/>
+                 logo={stairs}/>
             </div>
             <div className="moreRead">
                 <button className="btn3">მეტის ნახვა</button>

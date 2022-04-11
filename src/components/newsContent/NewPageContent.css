@@ -1,7 +1,7 @@
 .Contact-Main-wrapper{
     max-width: 1204px;
     margin: 0 auto;
-    background-color: red;
+    margin-top: 80px;
     
 }
 .ContentPage{
@@ -51,5 +51,47 @@ input {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+   margin-left:35px
+}
+.News-content p {
+    font-size: 18px;
+    color: #221F1F;
+    line-height: 30px;
+}
+.News-content {
+    padding: 31px 35px;
+}
+.empty-boxes div {
+    width: 282px;
+    height: 42px;
+    background-color:#edebeb ;
+    border-radius: 21px;
+}
+.empty-boxes{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.new-text-boxes{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    gap: 5vh;
+    margin-top: 70px;
 
+}
+.contact-button{
+    width: 369px;
+    height: 90px;
+    border-radius: 45px;
+    background-color: #FFCA05;
+    color: #FFFFFF;
+    font-size: 28px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 40px;
+}
+#sigh-more-button{
+   display: flex;
+   justify-content: center;
 }
