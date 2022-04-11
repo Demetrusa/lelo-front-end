@@ -4,9 +4,9 @@ import logo from "../../images/Layer_-1.svg"
 import globe from "../../images/globe.svg"
 import Button from "../button/Button";
 
-const Navigation = () => {
+const Navigation = ({flex}) => {
     return (
-        <div className="nav">
+        <div className={flex ? "flex" : "nav"}>
             <div className="nav-image">
                 <img src={logo} alt="showLogo" /> 
             </div>
