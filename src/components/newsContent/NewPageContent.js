@@ -11,6 +11,7 @@ import britishParlament from "../../images/Rectangle 178.svg"
 import newSpaper from "../../images/Rectangle 180.svg"
 import wallImg from "../../images/Rectangle 179.svg"
 import Button from "../button/Button";
+import Footer from '../../components/footer/Footer';
 
 const NewPageContent = () => {
     return(
@@ -70,6 +71,7 @@ const NewPageContent = () => {
                     <button className="contact-button">მეტის ნახვა</button>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }
