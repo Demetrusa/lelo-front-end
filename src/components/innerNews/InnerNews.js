@@ -1,10 +1,7 @@
 import React from "react";
 import "./InnerNews.css"
-import colisseumimage from "../../images/Rectangle 305.svg"
-import dataPicker from "../../images/datapicker.svg"
 import Navigation from "../navigation/Navigation";
-import MainText from "../maintext/MainText";
-import mainTextImg from "../../images/Rectangle 155.svg";
+import Footer from '../../components/footer/Footer';
 
 
 const InnerNews = () => {
@@ -39,7 +36,7 @@ const InnerNews = () => {
                     </p>
                 </div>
             </div>
-
+        <Footer />
         </div>
     )
 }
