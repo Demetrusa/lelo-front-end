@@ -1,6 +1,7 @@
 import './App.css';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
+import InnerNews from './components/innerNews/InnerNews';
 import Main from './components/main/Main';
 import Newcontent from './components/news/Newcontent';
 import NewPageContent from './components/newsContent/NewPageContent';
@@ -14,8 +15,9 @@ function App() {
       <Newcontent />
       <MarshalPlan />
       <Contact />
-      <Footer />
+      <Footer /> 
       <NewPageContent/>
+      <InnerNews />
     </div>
   );
 }
