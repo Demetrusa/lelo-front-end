@@ -1,11 +1,8 @@
 .innerNews-wrap{
     width: 100%;
-    background-color: rgb(19, 189, 227);
 }
 .innerNews-wrapper{
     max-width: 1200px;
-    height: 900px;
-    background-color: blue;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -23,5 +20,13 @@
     height: 42px;
     border-radius: 21px;
     margin: 0 auto;
- 
+    margin-top: 50px;
+}
+.news-text p{
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 60px;
+}
+.news-text{
+    margin-top: 50px;
 }
