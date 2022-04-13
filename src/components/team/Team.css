@@ -66,3 +66,9 @@
     display: flex;
     justify-content: center;
 }
+.organisation-button{
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}

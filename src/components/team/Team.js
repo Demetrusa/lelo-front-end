@@ -36,7 +36,7 @@ const Team = ({data}) => {
           </div>
           <div className="organisation-button">
               <Button text="ქალთა ორგანიზაცია" />
-              <Button flex={true} text="ახალგაზრდული ორგანიზაცია" />
+              <Button flex={true} text="ახალგაზრდული ორგანიზაცია"/>
           </div>
         </div>
     )
