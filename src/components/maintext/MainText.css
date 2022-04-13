@@ -32,17 +32,7 @@
     padding-top: 10px;
     color: #221F1F;
 }
-.team-read-more {
-    width: 369px;
-    height: 90px;
-    border-radius: 45px;
-    background-color: #FFCA05;
-    color: #FFFFFF;
-    font-size: 28px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
+
 .team-text-content{
     width: 50%;
    padding: 97px 47px 104px 356px; 

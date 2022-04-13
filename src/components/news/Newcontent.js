@@ -4,6 +4,7 @@ import  "./Newcontent.css"
 import parlament from "../../images//Rectangle 91.svg"
 import coliseum from "../../images/Rectangle 171.svg"
 import stairs from "../../images/Rectangle 173.svg"
+import MoreButton from "../readMoreButton/MoreButton";
 
 const Newcontent = () => {
     return (
@@ -25,7 +26,7 @@ const Newcontent = () => {
                  logo={stairs}/>
             </div>
             <div className="moreRead">
-                <button className="btn3">მეტის ნახვა</button>
+                <MoreButton text={"ვრცლად"}/>
             </div>
         </div>
     )

@@ -70,15 +70,6 @@
     display: flex;
     flex-direction: row;
 }
-#contact-button{
-    width: 369px;
-    height: 90px;
-    border-radius: 45px;
-    background-color: #FFCA05;
-    color: #FFFFFF;
-    font-size: 28px;
-    border: none;
-    outline: none;
-    cursor: pointer;
+#sendbtn {
     margin-top: 40px;
 }

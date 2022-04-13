@@ -1,6 +1,7 @@
 import React from "react";
 import "./MainText.css";
 import mainTextImg from "../../images/Rectangle 155.svg";
+import MoreButton from "../readMoreButton/MoreButton";
 
 
 const MainText = ({image,background,text }) =>{
@@ -25,7 +26,7 @@ const MainText = ({image,background,text }) =>{
                         have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and
                         </span></p>
                     </div>
-                    <button className="team-read-more">ვრცლად</button>
+                    <MoreButton text={"ვრცლად"} />
                 </div>
                 <div className="team-bg">
                     <img src={image} alt="write img" className="team-bg-image"/>

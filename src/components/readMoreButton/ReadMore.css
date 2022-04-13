@@ -10,3 +10,14 @@
     font-size: 18px;
     font-weight: bold;
 }
+#moreButton{
+    width: 369px;
+    height: 90px;
+    background-color: #FFCA05;
+    color: #ffffff;
+    font-size: 28px;
+    border-radius: 45px;
+    border: #FFCA05;
+    cursor: pointer;
+    font-weight: bold;
+}
