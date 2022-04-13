@@ -1,0 +1,12 @@
+#Read-button{
+    width: 207px;
+    height: 68px;
+    color: #ffffff;
+    background-color: #FFCA05;
+    cursor: pointer;
+    border-radius: 39px;
+    border: #FFCA05;
+    margin-top: 85px;
+    font-size: 18px;
+    font-weight: bold;
+}

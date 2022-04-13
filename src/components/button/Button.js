@@ -1,9 +1,9 @@
 import React from "react";
 import "./Button.css";
 
-const Button = ({text, image}) => {
+const Button = ({text, image, flex}) => {
     return(
-        <div className="btn4">
+        <div className={flex ? "displayBox" : "btn4"}>
             <img src={image} />
             <a className="btn" href="#">{text}</a>
         </div>

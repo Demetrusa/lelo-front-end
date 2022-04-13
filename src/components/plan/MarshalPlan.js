@@ -35,8 +35,6 @@ const MarshalPlan = () => {
                     </div>
                 </div>
             </div>
-            <MainText  image={mainTextImg} text={"ჩვენს შესახებ"}/>
-            <MainText  image={mainTextBG } background={true}  text={"შიდა არჩევნები"}/>
         </div>
     )
 }

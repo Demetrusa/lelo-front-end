@@ -10,4 +10,31 @@
 }
 .btn4:hover {
     background-color: #FFCA05;
+    color: #FFCA05;
+    
 }
+.btn{
+    color: black;
+}
+.btn:hover {
+    color: #FFFFFF;
+}
+
+.displayBox{
+    height: 95px;
+    font-size: 29px;
+    width: 48%;
+    border-radius: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.75);
+}
+.displayBox:hover {
+    background-color: #FFCA05;
+}
+.displayBox a{
+    color: #FFFFFF;
+}
+

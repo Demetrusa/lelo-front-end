@@ -12,6 +12,7 @@ import newSpaper from "../../images/Rectangle 180.svg"
 import wallImg from "../../images/Rectangle 179.svg"
 import Button from "../button/Button";
 import Footer from '../../components/footer/Footer';
+import ReadMore from "../readMoreButton/ReadMore";
 
 const NewPageContent = () => {
     return(
@@ -68,7 +69,7 @@ const NewPageContent = () => {
                     logo={wallImg }/>
                 </div>
                 <div id="sigh-more-button"> 
-                    <button className="contact-button">მეტის ნახვა</button>
+                   <ReadMore />
                 </div>
             </div>
             <Footer/>

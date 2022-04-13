@@ -1,0 +1,68 @@
+.team-card{
+    box-shadow: 0px 3px 31px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 3px 31px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 31px 0px rgba(0,0,0,0.75);
+        background-color: #ffffff;
+        border-radius: 25px;
+         width: 281px; 
+         margin: 20px;
+}
+.team-card-image{
+    margin-bottom: 25px;
+
+}
+.team-card-title{
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+.team-card-description {
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+.team-card-read-more{
+    color: #FFCA05;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 25px;
+    padding-bottom: 20px;
+}
+.team-content-wrap{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.team-content{
+    display: flex;
+    flex-direction: column;
+}
+.members-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.team-heading-title{
+    display: flex;
+    flex-direction: column;
+}
+#team-h{
+    font-size: 54px;
+    
+}
+.empty-space{
+    background-color: #FFCA05;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.heading-wrap{
+    display: flex;
+    max-width: 410px;
+    justify-content: space-between;
+}
+.team-heading-title p {
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 20px;
+}
+.subButton{
+    display: flex;
+    justify-content: center;
+}

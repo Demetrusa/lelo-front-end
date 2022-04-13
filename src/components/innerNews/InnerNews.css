@@ -30,3 +30,9 @@
 .news-text{
     margin-top: 50px;
 }
+.footer-none{
+    display: none;
+}
+.nav-display{
+    display: none;
+}

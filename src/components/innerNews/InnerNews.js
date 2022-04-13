@@ -4,13 +4,15 @@ import Navigation from "../navigation/Navigation";
 import Footer from '../../components/footer/Footer';
 
 
-const InnerNews = () => {
+const InnerNews = ({display,navigation,text}) => {
     return (
         <div className="innerNews-wrap">
+            <div className={navigation ? "nav-display" : "nav-div"}>
             <Navigation flex="true" />
+            </div>
             <div className="innerNews-wrapper">
                 <div className="news-heading">
-                    <h2>ლორემ იპსუმღორებმა შევჩერდი</h2>
+                    <h2>{text}</h2>
                     <div className="empty-space-div">
                     </div>
                 </div>
@@ -36,7 +38,9 @@ const InnerNews = () => {
                     </p>
                 </div>
             </div>
+        <div className={display ? "footer-none" : "footer-cont"}>
         <Footer />
+        </div>
         </div>
     )
 }
