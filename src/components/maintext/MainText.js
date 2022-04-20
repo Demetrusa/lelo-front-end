@@ -8,6 +8,7 @@ const MainText = ({image,background,text }) =>{
     return(
         <div className={background ? "main-wrap" : "team-section"} >
                 <div className="team-text-content">
+                <div className="mainTextWrap">
                     <div className="team-heading">   
                         <div className="circle2"></div>
                         <h2 className={background ? "color" : "Maintext-heading"}>{text}</h2>
@@ -27,6 +28,7 @@ const MainText = ({image,background,text }) =>{
                         </span></p>
                     </div>
                     <MoreButton text={"ვრცლად"} />
+                </div>
                 </div>
                 <div className="team-bg">
                     <img src={image} alt="write img" className="team-bg-image"/>
