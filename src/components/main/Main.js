@@ -1,13 +1,16 @@
 import React from "react";
 import Button from "../button/Button";
 import Navigation from "../navigation/Navigation";
-import "./Main.css"
+import "./Main.css";
+import mainImg from "../../images/Rectangle122.svg"
+
 
 function Main () {
     return(
        <div className="main">
           <Navigation />
           <div className="heading">
+             <div className="main-text-wrap">
              <div className="heading-content"> 
                 <h1>გაეცანით მარშალის გეგმას</h1>
              </div>
@@ -27,8 +30,10 @@ function Main () {
                    </span> </p>
                   <button className="read-more-btn">ვრცლად</button>
              </div>
+             </div>
           </div>
           <div className="bg-img">
+             <img src={mainImg} alt="image" className="team-bg-image" />
           </div>
        </div>
     )

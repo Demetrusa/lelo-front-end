@@ -1,20 +1,24 @@
 import React from "react";
-import "./MainText.css";
-import mainTextImg from "../../images/Rectangle 155.svg";
+import mainImg from "../../images/Rectangle122.svg"
+import MainText from "../maintext/MainText";
+import Navigation from "../navigation/Navigation";
 import MoreButton from "../readMoreButton/MoreButton";
+import "./FirstPage.css"
 
 
-const MainText = ({image,background,text }) =>{
+const FirstPage = () => {
     return(
-        <div className={background ? "main-wrap" : "team-section"} >
-                <div className="team-text-content">
-                <div className="mainTextWrap">
-                    <div className="team-heading">   
-                        <div className="circle2"></div>
-                        <h2 className={background ? "color" : "Maintext-heading"}>{text}</h2>
+        <>
+        <div className="nav-wrap">    <Navigation /></div>
+        <div className="firstPage">
+            <div className="first-page-content">
+                <div className="firstPageWrap">
+                    <div className="firstpage-heading">
+                        <div className="circleMark"></div>
+                        <h2 className="first-heading">გაეცანით მარშალის გეგმას</h2>
                     </div>
-                    <div className="text-side">
-                    <p className={background ? "color-text" : "maintext-info-color"}> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s 
+                    <div className="first-text-side">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s 
                         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
                         it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic 
                         typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of <span className="moreText">Letraset 
@@ -27,14 +31,16 @@ const MainText = ({image,background,text }) =>{
                         have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and
                         </span></p>
                     </div>
+                    <div className="button-padding">
                     <MoreButton text={"ვრცლად"} />
-                </div>
-                </div>
-                <div className="team-bg">
-                    <img src={image} alt="writeimg" className="team-bg-image"/>
+                    </div>
                 </div>
             </div>
+            <div className="firstPage-bg">
+                <img src={mainImg} alt="image" className="firstpage-bg-image" />
+            </div>
+        </div>
+        </>
     )
 }
-
-export default MainText;
+export default FirstPage;

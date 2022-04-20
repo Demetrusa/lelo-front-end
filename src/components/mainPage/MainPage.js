@@ -12,11 +12,13 @@ import TextContent from '../text-content/TextContent';
 import MainText from "../maintext/MainText.js";
 import mainTextImg from "../../images/Rectangle 155.svg"
 import mainTextBG from "../../images/Rectangle 206.png";
+import FirstPage from "../firsPage/FirsPage.js";
 
 const MainPage = ({data}) => {
     return (
         <div className="main-page-content">
-      <Main />
+      {/* <Main /> */}
+      <FirstPage />
       <Newcontent />
       <MarshalPlan />
       <MainText  image={mainTextImg} text={"ჩვენს შესახებ"}/>

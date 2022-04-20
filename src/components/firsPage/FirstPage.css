@@ -1,0 +1,53 @@
+.firstPage{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1920px;
+}
+.first-page-content{
+    display: flex;
+    align-items: center;
+    margin-bottom: 31px;
+    justify-content: flex-end;
+    width: 45%;
+}
+.firstPageWrap{
+    width:100% ;
+    max-width: 514px;
+    margin: 0 1em;
+    padding: 0 auto;
+    margin-top: 150px;
+}
+.firstpage-heading{
+    display: flex;
+    align-items: center;
+    margin-bottom: 31px;
+}
+.first-heading{
+    font-size: 54px;
+    color: #221F1F;
+    padding-left: 20px;
+}
+.first-text-side{
+    max-width: 514px;
+    font-size: 18px;
+}
+.circleMark{
+    background-color: #FFCA05;
+    max-width: 50px;
+    width: 100%; 
+    height: 50px;
+    border-radius: 50%;
+}
+.firstPage-bg{
+    width: 50%;
+}
+.firstpage-bg-image{
+    width: 100%;
+}
+.button-padding{
+    margin-top: 40px;
+}
+.nav-wrap{
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,22 +1,9 @@
-.bg-img{
-    background-image: url(../../images/Rectangle\ 122.svg);
-    height:797px ;
-    background-repeat: no-repeat;
-    background-position-x: right;
-    width: 988px;
-    border-radius: 25px;
-    /* position: absolute;
-    right: 0; */
-}
+
 .main {
   max-width: 1710px;
   margin-left: 360px;
   display: flex;
   justify-content: flex-end;
-}
-.heading{
-  margin-right: 90px;
-  margin-top: 239px;
 }
 .heading-content h1 {
   font-size: 62px;
@@ -53,4 +40,15 @@
   max-width: 1920px;
   background-color:#FAFAFA ;
   
+}
+.main-text-wrap{
+  width:100% ;
+  max-width: 514px;
+  margin: 0 1em;
+  padding: 0 auto;
+}
+.heading{
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
 }
