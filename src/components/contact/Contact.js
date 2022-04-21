@@ -8,6 +8,7 @@ const Contact = () => {
     return(
         <div className="contact-wrap">
             <div className="contact-left-wrap">
+                <div className="left-wrap-content">
                     <div className="contact-left-text">
                         <div className="cotact-circle"></div>
                         <h2>კონტაქტი</h2>
@@ -27,6 +28,7 @@ const Contact = () => {
                     <div id="sendbtn">
                     <MoreButton text={"გაგზავნა"}/>
                     </div>
+                </div>
             </div>
             <div className="contact-right-wrap">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2977.9661544756336!2d44.79711531543621!3d41.72124917923494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440d331ec6d1e9%3A0xe3dde2b6b7273cbf!2z4YOX4YOR4YOY4YOa4YOY4YOh4YOYIOGDquGDlOGDnOGDouGDoOGDkOGDmuGDmA!5e0!3m2!1ska!2sge!4v1649594533084!5m2!1ska!2sge" frameborder="0" height="558px" 
