@@ -2,8 +2,6 @@ import React from "react";
 import AboutUs from '../aboutUs/AboutUs.js';
 import Contact from '../contact/Contact';
 import Footer from '../footer/Footer';
-import InnerNews from '../innerNews/InnerNews';
-import Main from '../main/Main';
 import Newcontent from '../news/Newcontent';
 import NewPageContent from '../newsContent/NewPageContent';
 import MarshalPlan from '../plan/MarshalPlan';
@@ -13,11 +11,11 @@ import MainText from "../maintext/MainText.js";
 import mainTextImg from "../../images/Rectangle 155.svg"
 import mainTextBG from "../../images/Rectangle 206.png";
 import FirstPage from "../firsPage/FirsPage.js";
+import DonationBox from "../donation/DonationBox.js";
 
 const MainPage = ({data}) => {
     return (
         <div className="main-page-content">
-      {/* <Main /> */}
       <FirstPage />
       <Newcontent />
       <MarshalPlan />
@@ -26,6 +24,7 @@ const MainPage = ({data}) => {
       <MainText  image={mainTextBG } background={true}  text={"შიდა არჩევნები"}/>
       <Contact />
       <Footer />
+      <DonationBox />
         </div>
     )
 }

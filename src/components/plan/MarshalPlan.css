@@ -23,58 +23,7 @@
     column-gap: 20px;
 
 }
-.donation-calculator{
-    max-width: 1580px;
-    display: flex;
-    margin: 0 auto; 
-    background-color: #FFCA05;
-    color: #ffffff;
-    border-radius: 133px;
-    height: 206px;
-}
-.calculator-title {
-    max-width: 591px;
-    width: 100%;
-    
-}
-.calculator-title h2 {
+.donate-wrap{
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 54px;
-    padding-top: 75px;
-}
-.donation-amount{
-    width: 705px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 63px 142px 62px 142px;
-    font-size: 40px;
-    
-}
-
-
-.donation-example {
-    width: 989px;
-    background-color: black;
-    border-radius: 133px;
-    
-}
-.donation-amount div {
-    border: 2px solid #ffffff;
-    padding: 12px 53px 17px 60px;
-    border-radius: 60px;
-    margin-left: 20px;
-}
-.donation-amount div:hover{
-background-color: #FFCA05;
-}
-.text-side{
-    display: flex;
-    justify-content: space-between;
-}
-#heading-color{
-    color: #FFCA05;
 }

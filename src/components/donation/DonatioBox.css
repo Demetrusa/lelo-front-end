@@ -1,0 +1,42 @@
+.donation-wrap{
+    max-width: 1580px;
+    height: 206px;
+    display: flex;
+    background-color: rgb(255, 202, 5);
+    border-radius: 133px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.donation-wrap h2{
+    font-size: 54px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 202, 5);
+    border-top-left-radius: 133px;
+    border-bottom-left-radius: 133px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.choose-wrap{
+    width: 70%;
+    background-color: black;
+    border-radius: 133px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.choose-wrap button {
+    border: 3px solid white;
+    border-radius: 41px;
+    color: white;
+    width: 158px;
+    height: 81px;
+    background-color: black;
+    font-size: 39px;
+}
+.choose-wrap button:hover {
+    background-color: #FFCA05;
+}

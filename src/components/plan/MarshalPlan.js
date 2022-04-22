@@ -6,6 +6,7 @@ import MainText from "../maintext/MainText";
 import Contact from "../contact/Contact";
 import mainTextImg from "../../images/Rectangle 155.svg";
 import mainTextBG from "../../images/Rectangle 206.png";
+import DonationBox from "../donation/DonationBox";
 
 const MarshalPlan = () => {
     return (
@@ -22,18 +23,7 @@ const MarshalPlan = () => {
                 <Button text="ეკონომიკა"/>
                 <Button text="ეკონომიკა"/>
             </div>
-            <div className="donation-calculator">
-                <div className="calculator-title">
-                    <h2>დონაცია</h2>
-                </div>
-                <div className="donation-example">
-                    <div className="donation-amount">
-                        <div>10</div>
-                        <div>20</div>
-                        <div>50</div>
-                        <div>100</div>
-                    </div>
-                </div>
+            <div className="donate-wrap"><DonationBox />
             </div>
         </div>
     )
