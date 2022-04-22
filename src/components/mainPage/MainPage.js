@@ -24,7 +24,6 @@ const MainPage = ({data}) => {
       <MainText  image={mainTextBG } background={true}  text={"შიდა არჩევნები"}/>
       <Contact />
       <Footer />
-      <DonationBox />
         </div>
     )
 }
