@@ -20,8 +20,10 @@
 .footer-icons{
     display: flex;
     align-items: center;
+    color: #fff;
     justify-content: space-around;
     width: 140px; 
+    animation: first_color .5s;
     /* 140 unda iyos */
 }
 .footer-border-div{
@@ -50,4 +52,19 @@
     margin-left: 20px;
     margin-right: 20px;
 }
-
+.footerIcons:nth-child(2){
+    animation-name: second_color;
+}
+.footerIcons:nth-child(3){
+    animation-name: third_color;
+}
+@keyframes first_color {
+    0% {
+        text-shadow: 0 0 10px #1877f2,
+        0 0 20px #1459b3, 0 0 30px #179bff
+    }
+    100% {
+        text-shadow: 0 0 5px #1877f2,
+        0 0 10px #1459b3, 0 0 15px #179bff
+    }
+}

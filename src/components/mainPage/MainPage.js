@@ -12,6 +12,7 @@ import mainTextImg from "../../images/Rectangle 155.svg"
 import mainTextBG from "../../images/Rectangle 206.png";
 import FirstPage from "../firsPage/FirsPage.js";
 import DonationBox from "../donation/DonationBox.js";
+import News from "../news/Newcontent.js"
 
 const MainPage = ({data}) => {
     return (
@@ -24,6 +25,7 @@ const MainPage = ({data}) => {
       <MainText  image={mainTextBG } background={true}  text={"შიდა არჩევნები"}/>
       <Contact />
       <Footer />
+  
         </div>
     )
 }

@@ -16,13 +16,13 @@ const Navigation = ({flex}) => {
                     </div>
                     <nav>
                         <ul>
-                            <li>მთავარი</li>
-                            <li>სიახლეები</li>
-                            <li>სტრუქტურა</li>
-                            <li>წესდება</li>
-                            <li>არჩევნები</li>
-                            <li><a href="">დონაცია</a> </li>
-                            <li> <a href="">შემოგვიერთდით</a></li>
+                            <li><a href="#">მთავარი</a></li>
+                            <li><a href="#">სიახლეები</a> </li>
+                            <li><a href="#">სტრუქტურ</a> </li>
+                            <li><a href="#">წესდება</a> </li>
+                            <li><a href="#">არჩევნები</a></li>
+                            <li><a href="#">დონაცია</a> </li>
+                            <li> <a href="#">შემოგვიერთდით</a></li>
                         </ul>
                     </nav>
                 </div>
