@@ -1,0 +1,41 @@
+
+.register-heading{
+    max-width: 1280px;
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 95px;
+
+}
+.register-wrap{
+    display: flex;
+    margin-bottom: 32px;
+
+}
+.empty-smile{
+    background-color: #FFCA05;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.register-heading p {
+    font-size: 18px;
+}
+.register-heading{
+    font-size: 1rem;
+}
+.sign-in-heading{
+    display: flex;
+    justify-content: center;
+  
+}
+.sign-in-heading h2{
+    font-size: 3em;
+    padding: 48px 0;
+    color: #FFCA05;
+    line-height: 72px;
+    font-weight: bolder;
+}
+

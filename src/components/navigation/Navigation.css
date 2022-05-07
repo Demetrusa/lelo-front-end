@@ -13,7 +13,8 @@
 .nav{
     display: flex;
     justify-content: flex-end;
-    position: absolute;
+    /* position: absolute; */
+    position: fixed;
     
 }
 .navigation{
@@ -40,4 +41,5 @@
 .flex{
     display: flex;
     justify-content: flex-end;
+
 }

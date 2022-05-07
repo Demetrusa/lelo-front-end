@@ -16,9 +16,9 @@ const Footer  = () => {
                         <h2>ლელო</h2>
                     </div>
                 <div className="footer-icons">
-                    <div className="footer-border-div"><a href="#"><img src={facebookImg} alt="fb-icon" className="footerIcons"/></a> </div>
-                    <div className="footer-border-div"><a href="#"><img src={linkedinImg} alt="linkden icon"  className="footerIcons" id="linkden-img" /></a></div>
-                    <div className="footer-border-div"><a href="#"><img src={twitterImg} alt="twitter icon"className="footerIcons" /></a></div>
+                    <div className="footer-border-div"><a href="https://www.facebook.com/LeloForGeorgia" target="_blank"><img src={facebookImg} alt="fb-icon" className="footerIcons"/></a> </div>
+                    <div className="footer-border-div"><a href="https://www.linkedin.com/company/lelo2020/"  target="_blank"><img src={linkedinImg} alt="linkden icon"  className="footerIcons" id="linkden-img" /></a></div>
+                    <div className="footer-border-div"><a href="https://twitter.com/GeorgiaToday_GT/status/1478636317512716292" target="_blank"><img src={twitterImg} alt="twitter icon"className="footerIcons" /></a></div>
                 </div>
             </div>
         </div>
