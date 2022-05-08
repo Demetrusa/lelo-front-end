@@ -16,20 +16,27 @@ import News from "../news/Newcontent.js"
 import InnerNews from "../innerNews/InnerNews.js";
 import Register from "../registration/Register.js";
 import FormApp from "../form/FormApp.js";
+import TeamPage from "../guindiSection/TeamPage.js";
+import TeamPagePersonTwo from "../guindiSection/TeamPagePersonTwo.js";
+import TeamPagePersonThree from "../guindiSection/TeamPagePersonThree.js";
+import TeamPagePersonFour from "../guindiSection/TeamPagePersonFour.js";
+
+
+
+
 
 const MainPage = ({data}) => {
     return (
         <div className="main-page-content">
-      <FirstPage /> {/* აქ უნდა გადმოვიდეს <InnerNews /> */}
-      <Newcontent /> {/*  აქ უნდა გადავიდეს <NewPageContent /> */}
-
+      <FirstPage /> 
+      <Newcontent /> 
       <MarshalPlan />
-      <MainText  image={mainTextImg} text={"ჩვენს შესახებ"}/> {/* აქ უნდა გადმოვიდეს<AboutUs /> */}
+      <MainText  image={mainTextImg} text={"ჩვენს შესახებ"}/> 
       <Team data={data}/>
       <MainText  image={mainTextBG } background={true}  text={"შიდა არჩევნები"}/>
       <Contact />
       <Footer />
-    
+
         </div>
     )
 }

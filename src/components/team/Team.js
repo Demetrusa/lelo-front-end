@@ -5,19 +5,25 @@ import ReadMore from "../readMoreButton/ReadMore";
 import TeamCard from "./TeamCard";
 
 
+
+
 const Team = ({data}) => {
+
     const members = data.map((e) => {
-        return (
-            <TeamCard 
-                image={e.image}
-                title={e.title}
-                description={e.description}
-                id={e.id}
-            />
-            
-        )
+        if(e.id < 4 ){
+            return (
+                <TeamCard 
+                    image={e.image}
+                    title={e.title}
+                    description={e.description}
+                    id={e.id}
+                />
+            )
+        }
+       
     })
     return (
+        
         <div className="team-content-wrap">
           <div className="team-heading-title">
               <div className="heading-wrap">
@@ -39,6 +45,7 @@ const Team = ({data}) => {
               <Button flex={true} text="ახალგაზრდული ორგანიზაცია"/>
           </div>
         </div>
+        
     )
 }
 

@@ -2,9 +2,16 @@ import React from "react";
 import "./MainText.css";
 import mainTextImg from "../../images/Rectangle 155.svg";
 import MoreButton from "../readMoreButton/MoreButton";
+import { useNavigate } from "react-router-dom";
 
 
 const MainText = ({image,background,text }) =>{
+    const navigate = useNavigate();
+
+    const AboutUS = () => {
+        navigate('/aboutUS')
+    }
+    
     return(
         <div className={background ? "main-wrap" : "team-section"} >
                 <div className="team-text-content">
@@ -24,10 +31,11 @@ const MainText = ({image,background,text }) =>{
                         The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here,
                         content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum
                         as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions
-                        have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and
+                        have evolved over the years, sometimes by accident, sometimes on purpose injected humour and
                         </span></p>
                     </div>
-                    <MoreButton text={"ვრცლად"} />
+                    <div onClick={AboutUS}>  <MoreButton text={"ვრცლად"}  /></div>
+                    
                 </div>
                 </div>
                 <div className="team-bg">

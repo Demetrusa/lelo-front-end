@@ -10,12 +10,23 @@
     flex-wrap: wrap;
   
 }
+.navigation ul{
+    max-width: 970px;
+}
 .nav{
     display: flex;
     justify-content: flex-end;
-    /* position: absolute; */
-    position: fixed;
-    
+    position: absolute;
+
+}
+.navigation li a {
+ color: #FFFFFF;
+ font-weight: bold;
+ font-size: 16px;
+}
+.navigation li a:hover{
+    color: black;
+  
 }
 .navigation{
     border: 1px solid #FFCA05;

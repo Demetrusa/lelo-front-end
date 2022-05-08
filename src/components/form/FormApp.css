@@ -1,5 +1,5 @@
 .form-container {
-    margin: 100px auto;
+    margin: 50px auto;
     width: 1000px;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
     position: relative;
@@ -129,14 +129,15 @@
     font-size: 1rem;
   }
   
-  .form-input-btn:hover {
+  .form-input-btn:hover{
     cursor: pointer;
     background: linear-gradient(
       90deg,
-      rgb(39, 143, 255) 0%,
-      rgb(12, 99, 250) 100%
+      rgb(236, 205, 29) 0%,
+      rgb(225, 240, 6) 100%
     );
     transition: all 0.4s ease-out;
+    color: black;
   }
   
   .form-input-login {

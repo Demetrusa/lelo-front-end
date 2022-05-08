@@ -6,8 +6,14 @@ import coliseum from "../../images/Rectangle 171.svg"
 import stairs from "../../images/Rectangle 173.svg"
 import MoreButton from "../readMoreButton/MoreButton";
 import ReadMore from "../readMoreButton/ReadMore";
+import { useNavigate } from "react-router-dom";
 
 const Newcontent = () => {
+    const navigate = useNavigate();
+
+    const NewPageContent = () => {
+        navigate('/NewPageContent')
+    }
     return (
         <div className="newsInfo">
             <div className="newsContent">
@@ -15,6 +21,7 @@ const Newcontent = () => {
                 <h2>სიახლეები</h2>
             </div>
             <div className="content-Boxes">
+                
                 <TextContent
                  logo={ parlament} 
                  title={'ლორემ იპსუმღორებმა'}
@@ -26,7 +33,7 @@ const Newcontent = () => {
                 title={'ლორემ იპსუმღორებმა შევჩერდი'}
                  logo={stairs}/>
             </div>
-            <div className="moreRead">
+            <div className="moreRead" onClick={NewPageContent}>
                <ReadMore />
             </div>
         </div>

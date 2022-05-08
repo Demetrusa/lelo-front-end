@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     max-width: 1920px;
+    margin-top: 140px;
 }
 .first-page-content{
     display: flex;
@@ -15,17 +16,18 @@
     max-width: 514px;
     margin: 0 1em;
     padding: 0 auto;
-    margin-top: 150px;
 }
 .firstpage-heading{
     display: flex;
     align-items: center;
     margin-bottom: 31px;
+    width: 100%;
 }
 .first-heading{
     font-size: 54px;
     color: #221F1F;
     padding-left: 20px;
+    width: 100%;
 }
 .first-text-side{
     max-width: 514px;

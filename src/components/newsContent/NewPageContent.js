@@ -68,9 +68,6 @@ const NewPageContent = () => {
                     title={'ლორემ იპსუმღორებმა შევჩერდი'}
                     logo={wallImg }/>
                 </div>
-                <div id="sigh-more-button"> 
-                   <ReadMore />
-                </div>
             </div>
             <Footer/>
         </div>

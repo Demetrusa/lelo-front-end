@@ -1,0 +1,42 @@
+
+.friends-cointaner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.teamPage-main-wrap{
+    max-width: 877px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.eam-first-line-leftt-wrap{
+    max-width: 478px;
+    display: flex;
+    flex-direction: column;
+}
+.team-first-line-leftt-wrap h2{
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+.team-first-line-leftt-wrap h3{
+    font-size: 1.5rem;
+    max-width: 250px;
+    padding-top: 25px;
+}
+.team-first-line-leftt-wrap p {
+    max-width: 470px;
+    font-size: 1em;
+    padding-top: 30px;
+}
+.team-first-line-wrap{
+    display: flex;
+}
+.team-text-wrap {
+    font-size: 17px;
+    max-width: 750px;
+    margin: 20px 0;
+}
+

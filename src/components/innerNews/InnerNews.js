@@ -12,7 +12,7 @@ const InnerNews = ({display,navigation,text}) => {
             </div>
             <div className="innerNews-wrapper">
                 <div className="news-heading">
-                    <h2>მარშალის გეგმა</h2>
+                    <h2>{text}</h2>
                     <div className="empty-space-div">
                     </div>
                 </div>

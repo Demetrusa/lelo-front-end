@@ -10,10 +10,10 @@ const FormSignup = ({submitForm}) => {
   return (
   <div className="form-content-right">
       <form className="form" onSubmit={handleSubmit} >
-          <h1>SignUp</h1>
+          <h1>Sign up Lelo, for Your Future</h1>
           <div className="form-inputs">
               <label htmlFor="username" className="form-label">
-                username
+                Username
               </label>
               <input
                     id="username"
@@ -28,7 +28,7 @@ const FormSignup = ({submitForm}) => {
           </div>
           <div className="form-inputs">
               <label htmlFor="email" className="form-label">
-                 email
+                 Email
               </label>
               <input
                     id='email'
@@ -65,7 +65,7 @@ const FormSignup = ({submitForm}) => {
                    type="password" 
                    name="password2" 
                    className="form-input"
-                   placeholder="Enter your second password" 
+                   placeholder="Repeat Password" 
                    value={values.password2}
                    onChange={handleChange}
                    />

@@ -11,6 +11,7 @@
     margin-bottom: 25px;
 
 }
+
 .team-card-title{
     margin-bottom: 10px;
     margin-left: 25px;
@@ -37,6 +38,7 @@
 .members-wrap{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .team-heading-title{
     display: flex;

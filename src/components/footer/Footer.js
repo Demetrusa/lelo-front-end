@@ -10,7 +10,7 @@ const Footer  = () => {
     return (
         <div className="footer-wrap">
             <div className="footer-content">
-                    <a href="#" id="footer-contact-heading">კონტაქტი</a>
+                    <a href="mailto:info@lelo2020.com" id="footer-contact-heading">კონტაქტი</a>
                     <div className="lelo-logo">
                         <img src={footerImg} alt="footer-img" className="footer-image" />
                         <h2>ლელო</h2>

@@ -4,6 +4,7 @@ import TeamCard from "../team/TeamCard";
 import { useState, useEffect } from "react";
 import "./Register.css"
 import Footer from "../footer/Footer";
+import FormApp from "../form/FormApp";
 
 const Register = () =>{ 
     
@@ -30,6 +31,9 @@ const Register = () =>{
           </div>
           <div className="sign-in-heading">
           <h2>გაიარეთ ავტორიცაზია</h2>
+          </div>
+          <div className="registration">
+         <FormApp />
           </div>
         <div id="footeri"><Footer />
         </div>

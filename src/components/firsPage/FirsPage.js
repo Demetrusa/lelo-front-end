@@ -3,10 +3,16 @@ import mainImg from "../../images/Rectangle122.svg"
 import MainText from "../maintext/MainText";
 import Navigation from "../navigation/Navigation";
 import MoreButton from "../readMoreButton/MoreButton";
-import "./FirstPage.css"
+import "./FirstPage.css";
+import { useNavigate } from "react-router-dom";
 
 
 const FirstPage = () => {
+    const navigate = useNavigate();
+
+    const navigateMore = () => {
+        navigate('/news')
+    }
     return(
         <>
         <div className="nav-wrap">    <Navigation /></div>
@@ -31,7 +37,7 @@ const FirstPage = () => {
                         have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and
                         </span></p>
                     </div>
-                    <div className="button-padding">
+                    <div className="button-padding" onClick={navigateMore}>
                     <MoreButton text={"ვრცლად"} />
                     </div>
                 </div>

@@ -16,18 +16,10 @@ const Contact = () => {
                     <div className="contact-info">
                         <h3>სამუშაო განრიგი: ორშაბათი - პარასკევი, 10:00 - 19:00</h3>
                         <h3>თბილისი, ცენტრალი</h3>
-                        <h3>ტელეფონი <span id="number-span">032 223 22 88</span> </h3>
-                        <h3>ელ.ფოსტა <span id="email-span">info@lelo2020.com</span></h3>
+                        <h3>ტელეფონი <span id="number-span"> <a href="tel:032 223 22 88">032 223 22 88</a></span> </h3>
+                        <h3>ელ.ფოსტა <span id="email-span"> <a href="mailto:info@lelo2020.com">info@lelo2020.com</a> </span></h3>
                     </div>
-                     <div className="registration-form">
-                        <input type="text" name="firstName" id="firstName" placeholder="სახელი"/>
-                        <input type="text" name="lastName" id="lastName" placeholder="გვარი"/>
-                        <input type="email" name="mail" id="mail" placeholder="ელ.ფოსტა"/><br/>
-                        <textarea name="textArea" id="TextArea" placeholder="ტექსტი"></textarea>
-                    </div>
-                    <div id="sendbtn">
-                    <MoreButton text={"გაგზავნა"}/>
-                    </div>
+                 
                 </div>
             </div>
             <div className="contact-right-wrap">

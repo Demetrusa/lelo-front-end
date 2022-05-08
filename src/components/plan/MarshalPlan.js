@@ -18,10 +18,10 @@ const MarshalPlan = () => {
   
                 <Button text="ეკონომიკა" image={buttonLogo}/>
                 <Button text="უსაფრთხოება"/>
-                <Button text="კულტურა და ჯანდაცვა"/>
+                <Button text="კულტურა"/>
                 <Button text="განათლება"/>
-                <Button text="ეკონომიკა"/>
-                <Button text="ეკონომიკა"/>
+                <Button text="ჯანდაცვა"/>
+                <Button text="ტურიზმი"/>
             </div>
             <div className="donate-wrap"><DonationBox />
             </div>

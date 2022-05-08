@@ -30,7 +30,9 @@
 .content-Boxes {
     margin-top: 55px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+
 }
 
 .moreRead{
