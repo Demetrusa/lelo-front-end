@@ -304,3 +304,17 @@
   background: #FFCA05;
   border-radius: 50px;
 }
+@media screen and (max-width:480px) {
+  .donation-box{
+    max-width: 300px;
+    transition: 1s;
+  }
+  .donat-heading h2{
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  .donat-heading p{
+    font-size: 1em
+  }
+  
+}
