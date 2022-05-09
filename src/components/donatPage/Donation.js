@@ -60,7 +60,7 @@ function Donation() {
         </div>
         ) : (
            <div className='donation-box'>
-               <h2 style={{display: 'flex', justifyContent: 'center',fontSize: 33}}>Your Donation is Accepted! Thank You!</h2>
+               <h2 style={{display: 'flex', justifyContent: 'center',fontSize: 33, marginLeft:35,paddingTop:40}}>Your Donation is Accepted! Thank You!</h2>
            </div>
         )}
         </>

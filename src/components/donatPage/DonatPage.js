@@ -7,7 +7,7 @@ import "./Donation.css"
 function DonatPage() {
   return (
     <div className='donatPage'>
-        <Navigation flex="true" />
+        <Navigation />
         <div className="donat-wrap">
             <div className="donat-heading">
             <h2>Donation</h2>
