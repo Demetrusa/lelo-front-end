@@ -40,3 +40,23 @@
     font-weight: bolder;
 }
 
+@media screen and (max-width:1200px) {
+    .register-wrap{
+        margin-left: 50px;
+        display: flex;
+        align-items: center;
+        transition: 1s;
+    }
+    #register-heading {
+        font-size: 1.5rem;
+        transition: 1s;
+    }
+    .register-heading p{
+        padding: 30px;
+        transition: 1s;
+    }
+    .sign-in-heading h2{
+        font-size: 2em;
+        transition: 1s;
+    }
+}

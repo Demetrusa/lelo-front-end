@@ -10,7 +10,7 @@ const Register = () =>{
     
     return(
         <div className="registerWrap">
-            <Navigation flex="true" />
+            <Navigation />
             <div className="register-heading">
               <div className="register-wrap">
                 <div className="empty-smile"></div>
