@@ -151,7 +151,7 @@
     }
     
 }
-@media screen and (max-width:480px){
+@media screen and (max-width:380px){
     .Maintext-heading{
         font-size:15px ;
         padding-left:10px;
@@ -159,5 +159,8 @@
     }
     .text-side{
         width: 250px;
+    }
+    .team-bg-image {
+        width: 240px;
     }
 }
