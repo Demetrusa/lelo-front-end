@@ -14,7 +14,7 @@ const TextContent = ({logo, title}) => {
             <div className="text-content-padding">
             <div className="datapicker">
                 <img src={dataPicker} alt="showImg" />
-                <h4>10 feb 2022</h4>
+                <h4>10 may 2022</h4>
             </div>
             <div className="textbox-content">
                 <h2>{title}</h2>

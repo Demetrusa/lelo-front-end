@@ -56,3 +56,65 @@
 .moreText{
     display: none;
 }
+
+@media screen and (max-width:1200px) {
+    .first-heading{
+        font-size: 30px;
+        transition: 0.5s;
+    }
+    .first-text-side p {
+        font-size: 15px;
+        transition: 0.5s;
+    }
+}
+@media screen and (max-width:720px) {
+    .first-heading{
+        font-size: 20px;
+        transition: 0.5s;
+    }
+    .first-text-side p {
+        font-size: 15px;
+        transition: 0.5s;
+    }
+    .circleMark {
+        max-width:25px;
+        height: 25px;
+        border-radius: 50%;
+        
+    }
+    .firstPage{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .firstPageWrap{
+        margin-top: 20px;
+        transition: 0.5s;
+    }
+}
+@media screen and (max-width:480px) {
+    .first-heading{
+        font-size: 20px;
+        transition: 0.5s;
+        
+    }
+    .first-text-side p {
+        font-size: 11px;
+        transition: 0.5s;
+    }
+    .circleMark {
+        max-width:15px;
+        height: 15px;
+        border-radius: 50%;
+        
+    }
+    .firstPage{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .firstPageWrap{
+        margin-top: 20px;
+        transition: 0.5s;
+    }
+}

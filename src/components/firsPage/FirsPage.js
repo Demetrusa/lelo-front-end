@@ -38,7 +38,7 @@ const FirstPage = () => {
                         </span></p>
                     </div>
                     <div className="button-padding" onClick={navigateMore}>
-                    <MoreButton text={"ვრცლად"} />
+                    <MoreButton text={"ვრცლად"} width="true"/>
                     </div>
                 </div>
             </div>

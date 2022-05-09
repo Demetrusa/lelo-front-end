@@ -30,7 +30,7 @@ const Team = ({data}) => {
                 <div className="empty-space"></div>
                 <h2 id="team-h">ჩვენი გუნდი</h2>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea aspernatur minima exercitationem voluptatum sint, 
+              <p id="team-content-texti">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea aspernatur minima exercitationem voluptatum sint, 
                   esse neque quo ex quam culpa voluptatibus delectus accusamus temporibus officiis? Deserunt quasi qui sunt mollitia, 
                   corporis quia excepturi maxime quisquam, fugiat suscipit reprehenderit consequatur ipsum!</p>
               <div className="members-wrap">
@@ -39,10 +39,6 @@ const Team = ({data}) => {
           </div>
           <div className="subButton">
               <ReadMore />
-          </div>
-          <div className="organisation-button">
-              <Button text="ქალთა ორგანიზაცია" />
-              <Button flex={true} text="ახალგაზრდული ორგანიზაცია"/>
           </div>
         </div>
         

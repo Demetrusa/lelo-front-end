@@ -33,9 +33,50 @@
     justify-content: center;
     flex-wrap: wrap;
 
+
 }
 
 .moreRead{
     margin-bottom: 70px;
 
+}
+
+@media screen and (max-width:1200px) {
+    .newsContent h2 {
+        font-size:30px;
+        max-width: 300px;
+        transition: 3s;
+    }
+    .newsContent{
+        display: flex;
+        justify-content: center;
+        transition: 2s;
+    }
+    
+}
+@media screen and (max-width:780px){
+    .newsContent h2{
+        font-size: 24px;
+        
+    }
+    .newsContent {
+        padding-bottom: 20px;
+    }
+    .circle{
+        max-width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+} 
+
+@media screen and (max-width:480px){
+    .newsContent h2{
+        font-size: 25px;
+        transition: 1s;
+    }
+    .circle{
+        width: 25px;
+        height: 25px;
+        transition: 1s;
+    }
 }

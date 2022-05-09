@@ -85,3 +85,37 @@
     justify-content: center;
     margin-top:51.5px ;
  }
+ @media screen and (max-width:780px) {
+     .textbox{
+         max-width: 300px;
+         margin: 30px 10px;
+         transition: 1s;
+     }
+     .freeDiv{
+         width:250px;
+         height: 30px;
+         transition: 1s;
+     }
+     .ContentImg img{
+         width: 300px;
+         object-fit: cover;
+         transition: 1s;
+     }
+     .textbox-content h2{
+         font-size: 20px;
+         transition: 1s;
+         padding-bottom: 40px;
+         height: auto;
+     }
+     .textbox-content p {
+         font-size: 18px;
+         transition: 1s;
+     }
+     .ReadMore{
+         font-size: 18px;
+         transition: 1s;
+     }
+ }
+ @media screen and (max-width:480px) {
+
+ }

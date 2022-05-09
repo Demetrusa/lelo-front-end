@@ -5,7 +5,7 @@ import "./ReadMore.css"
 const MoreButton = ({text}) =>{
     return(
         <div className="more-moreButton">
-            <button id="moreButton">{text}</button>
+            <button className="moreButton">{text}</button>
         </div>
     )
 }

@@ -16,7 +16,7 @@ const MarshalPlan = () => {
             </div>
             <div className="donation">
   
-                <Button text="ეკონომიკა" image={buttonLogo}/>
+                <Button text="ეკონომიკა"/>
                 <Button text="უსაფრთხოება"/>
                 <Button text="კულტურა"/>
                 <Button text="განათლება"/>

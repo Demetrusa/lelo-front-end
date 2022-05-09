@@ -40,3 +40,71 @@
 .choose-wrap button:hover {
     background-color: #FFCA05;
 }
+@media screen and (max-width:1200px) {
+    .donation-wrap h2{
+        font-size: 35px;
+        transition: 1s;
+    }
+    .choose-wrap button {
+        font-size: 30px;
+        width: 120px;
+        height: 60px;
+        transition: 1s;
+
+    }
+    .choose-wrap{
+        width: 80%;
+        transition: 1s;
+    }
+    .donation-wrap{
+       height: 130px;
+       max-width: 1000px;
+       transition: 1s;
+    }
+    
+}
+@media screen and (max-width:720px) {
+    .donation-wrap h2{
+        font-size: 25px;
+    }
+    .choose-wrap button {
+        font-size: 25px;
+        width: 90px;
+        height: 35px;
+        transition: 1s;
+
+    }
+    .choose-wrap{
+        width: 70%;
+        transition: 1s;
+    }
+    .donation-wrap{
+       height: 100px;
+       max-width: 650px;
+       transition: 1s;
+    }
+}
+
+@media screen and (max-width:480px){
+    .donation-wrap h2{
+        font-size: 18px;
+    }
+    .choose-wrap button{
+        font-size: 15px;
+        width: 50px;
+        height: 35px;
+        transition: 1s;
+    }
+    .donation-wrap{
+        height: 100px;
+        max-width: 380px;
+        transition: 1s;
+     }
+     .choose-wrap{
+        gap: 10px;
+     }
+  
+}
+@media screen and (max-width:380px) {
+    
+}

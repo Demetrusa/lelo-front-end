@@ -10,7 +10,7 @@
     font-size: 18px;
     font-weight: bold;
 }
-#moreButton{
+.moreButton{
     max-width: 369px;
     width: 100%;
     height: 90px;
@@ -21,4 +21,58 @@
     border: #FFCA05;
     cursor: pointer;
     font-weight: bold;
+}
+
+@media screen and (max-width:1200px) {
+    .moreButton {
+        max-width: 200px;
+        height: 50px;
+        font-size: 18px;
+        border-radius: 25px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .moreButton {
+        max-width: 100px;
+        height: 30px;
+        font-size: 14px;
+        border-radius: 20px;
+        transition: 1s;
+
+    }
+    .more-moreButton{
+        display: flex;
+        justify-content: center;
+    }
+    #Read-button{
+        max-width: 150px;
+        height: 40px;
+        font-size: 14px;
+        border-radius: 20px;
+        transition: 1s;
+    }
+
+}
+@media screen and (max-width:480px){
+    .moreButton {
+        max-width: 80px;
+        height: 25px;
+        font-size: 13px;
+        border-radius: 20px;
+        transition: 1s;
+
+    }
+    .more-moreButton{
+        display: flex;
+        justify-content: center;
+    }
+    #Read-button{
+        max-width: 100px;
+        height: 25px;
+        font-size: 12px;
+        border-radius: 20px;
+        transition: 1s;
+    }
 }

@@ -37,3 +37,50 @@
 .displayBox a{
     color: #FFFFFF;
 }
+
+@media screen and (max-width:1200px) {
+    .btn4 {
+        margin-bottom: 20px;
+        font-size: 23px;
+    }
+
+    
+}
+@media screen and (max-width:720px) {
+    .btn4 {
+        margin-bottom: 20px;
+        font-size: 23px;
+        width: 40%;
+        height: 50px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        transition: 1s;
+    }
+
+}
+@media screen and (max-width:380px){
+    .btn4 {
+        margin-bottom: 20px;
+        font-size: 14px;
+        width: 35%;
+        height: 30px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width:320px){
+    .btn4 {
+        margin-bottom: 15px;
+        font-size: 10px;
+        width: 30%;
+        height: 20px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        transition: 1s;
+    }
+}
