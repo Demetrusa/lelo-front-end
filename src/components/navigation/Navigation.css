@@ -72,18 +72,22 @@
 
 .hidden-menu{
     position: absolute;
-    top: 120px;
-    right: 10%;
+    top: 132px;
     background-color: #FFCA05;
+    width:100%;
     
 }
 .hidden-menu li{
     padding: 10px;
     line-height: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom:10px;
+    padding-left: 15px;
 }
 .hidden-menu a{
     color: #fffdfd;
     font-weight: bold;
+
 }
 
 .hidden-menu a:hover{
@@ -126,7 +130,18 @@
         transition: 0.5s;
     }
 }
-
+@media(max-width:1200px){
+    .navigation{
+        max-width: 850px;
+        transition: 0.5s
+    }
+    #nav-logo{
+        margin-right: 5px;
+    }
+    .navigation li{
+        padding-left: 20px;
+    }
+}
 
 @media(max-width:999px){
     .hamburger{
