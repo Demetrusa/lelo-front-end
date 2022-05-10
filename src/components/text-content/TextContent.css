@@ -83,7 +83,7 @@
 .moreRead{
     display: flex;
     justify-content: center;
-    margin-top:51.5px ;
+
  }
  @media screen and (max-width:780px) {
      .textbox{
@@ -115,7 +115,4 @@
          font-size: 18px;
          transition: 1s;
      }
- }
- @media screen and (max-width:480px) {
-
  }

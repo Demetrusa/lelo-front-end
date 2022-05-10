@@ -94,13 +94,15 @@
 }
 @media screen and (max-width:480px) {
     .first-heading{
-        font-size: 20px;
+        font-size: 12px;
         transition: 0.5s;
+        width: 200px;
         
     }
     .first-text-side p {
-        font-size: 11px;
+        font-size: 10px;
         transition: 0.5s;
+        width: 200px;
     }
     .circleMark {
         max-width:15px;
@@ -116,5 +118,9 @@
     .firstPageWrap{
         margin-top: 20px;
         transition: 0.5s;
+    }
+    .firstpage-bg-image{
+        width: 200px;
+        transition: 1s;
     }
 }

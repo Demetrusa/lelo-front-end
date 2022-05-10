@@ -93,6 +93,7 @@
     .color-text,
     .maintext-info-color{
         font-size: 15px;
+
     }
     
     .main-wrap{
@@ -149,6 +150,9 @@
     .text-side{
         width: 300px;
     }
+    .team-bg-image {
+        width: 260px;
+    }
     
 }
 @media screen and (max-width:380px){
@@ -158,9 +162,12 @@
         
     }
     .text-side{
-        width: 250px;
+        width: 230px;
     }
     .team-bg-image {
         width: 240px;
+    }
+    .main-wrap{
+        padding-right: 60px;
     }
 }
