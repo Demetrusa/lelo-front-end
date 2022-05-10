@@ -9,6 +9,11 @@ import { useNavigate } from "react-router-dom";
 
 
 function TeamPage() {
+    const navigate = useNavigate();
+
+    const TeamContent = () => {
+        navigate('/team')
+    }
   return (
     <div>
         <div className="teamPage-text">

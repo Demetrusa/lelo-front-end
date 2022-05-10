@@ -21,7 +21,8 @@ function App({data}) {
     <div className='app'>
       <Routes>
         <Route exact path="/" element={ <MainPage data={data}/>} />
-        <Route path="/more-teams" element={<Team data={data}/>} />
+        {/* <Route path="/more-teams" element={<Team data={data}/>} /> */}
+        <Route path="/team" element={<TeamPage />} />
         <Route path='/news' element={<InnerNews />} />
         <Route path='/register' element={<Register />} />
         <Route path='/donation' element={<DonatPage />} />

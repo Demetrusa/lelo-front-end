@@ -25,6 +25,7 @@
 .navigation li a:hover{
     color: black;
     transition: 0.8s;
+    cursor: pointer;
   
 }
 .navigation{
@@ -47,6 +48,7 @@
 .nav-image{
     margin-right: 60px;
     margin-top: 53px;
+    cursor: pointer;
 }
 .hamburger{
     display: none;
@@ -69,7 +71,6 @@
 
 }
 
-
 .hidden-menu{
     position: absolute;
     top: 132px;
@@ -83,6 +84,7 @@
     border-bottom: 1px solid black;
     margin-bottom:10px;
     padding-left: 15px;
+ 
 }
 .hidden-menu a{
     color: #fffdfd;
