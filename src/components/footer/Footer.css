@@ -77,3 +77,22 @@
        color: #0ec0a5  
     }
 }
+
+@media(max-width:780px){
+    .footer-content{
+        width: 70%;
+        transform: 1s;
+    }
+}
+@media(max-width:480px){
+    .footer-content{
+        width: 80%;
+        transform: 1s;
+    }
+}
+@media(max-width:380px){
+    .footer-content{
+        width: 90%;
+        transform: 1s;
+    }
+}

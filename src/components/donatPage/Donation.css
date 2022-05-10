@@ -318,3 +318,56 @@
   }
   
 }
+
+@media(max-width:780px){
+  .team-first-line-leftt-wrap h2{
+    font-size: 1.5rem;
+    transform: 1s;
+    padding: 5px;
+  }
+  .team-first-line-right-wrap img{
+    width: 250px;
+    transform: 1s;
+  }
+  .team-first-line-leftt-wrap h3{
+    font-size: 1rem;
+    transform: 1s;
+  }
+  .team-text-wrap{
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px 0;
+    transition: 1s;
+  }
+}
+@media(max-width:480px){
+  .team-first-line-leftt-wrap h2{
+    font-size: 1rem;
+    transform: 1s;
+    padding: 5px;
+  }
+  .team-first-line-right-wrap img{
+    width: 200px;
+    transform: 1s;
+  }
+  .team-first-line-leftt-wrap h3{
+    font-size: 14px;
+    transform: 1s;
+  }
+  .team-text-wrap{
+    font-size: 12px;
+    padding: 10px;
+    margin: 10px 0;
+    transition: 1s;
+  }
+  .team-first-line-leftt-wrap p{
+    font-size: 12px;
+    
+  }
+  .team-first-line-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+}

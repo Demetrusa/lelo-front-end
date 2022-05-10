@@ -14,6 +14,9 @@ function TeamPage() {
     const TeamContent = () => {
         navigate('/team')
     }
+    const navigateNext = () =>{
+        navigate('/teamMember')
+    }
   return (
     <div>
         <div className="teamPage-text">
@@ -85,6 +88,9 @@ function TeamPage() {
                             </p>
                         </div>
                     </div>
+                </div>
+                <div className='team-next-button'>
+                <button className='next-button' onClick={navigateNext}>Next Candidate</button>
                 </div>
             </div>
             <div className="footer-countainer-for-team">

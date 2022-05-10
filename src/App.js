@@ -13,6 +13,9 @@ import MainPage from './components/mainPage/MainPage';
 import Register from './components/registration/Register';
 import DonatPage from './components/donatPage/DonatPage';
 import TeamPage from './components/guindiSection/TeamPage';
+import TeamPagePersonTwo from './components/guindiSection/TeamPagePersonTwo';
+import TeamPagePersonThree from './components/guindiSection/TeamPagePersonThree';
+import TeamPagePersonFour from './components/guindiSection/TeamPagePersonFour';
 
 
 
@@ -28,7 +31,11 @@ function App({data}) {
         <Route path='/donation' element={<DonatPage />} />
         <Route path='/NewPageContent' element={< NewPageContent />} />
         <Route path='/aboutUS' element={< AboutUs/>} />
-        <Route path='./teamPage' element={<TeamPage />} />
+        <Route path='/teamPage' element={<TeamPage />} />
+        <Route path='/teamMember' element={<TeamPagePersonTwo />} />
+        <Route path='/teamMemberThree' element ={<TeamPagePersonThree />} />
+        <Route path ='/teamMemberMemebrFour' element={<TeamPagePersonFour />} />
+        <Route path ='/teamMemberMainPage' element ={<MainPage data={data} />} />
       </Routes>
     </div>
   );

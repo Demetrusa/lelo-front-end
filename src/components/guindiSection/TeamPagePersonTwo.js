@@ -3,9 +3,16 @@ import Footer from '../footer/Footer';
 import Navigation from '../navigation/Navigation';
 import "./TeamPage.css"
 import secondGuy from "../../images/Rectangle 236.svg"
+import { useNavigate } from "react-router-dom";
+
 
 
 function TeamPagePersonTwo() {
+    const navigate = useNavigate();
+
+    const navigateNextCandidat = () =>{
+        navigate('/teamMemberThree')
+    }
    
   return (
     <div>
@@ -77,6 +84,9 @@ function TeamPagePersonTwo() {
                                     Officia sed error nihil earum eligendi?
                             </p>
                         </div>
+                    </div>
+                    <div className='team-next-button'>
+                        <button className='next-button' onClick={navigateNextCandidat}>Next Candidate</button>
                     </div>
                 </div>
             </div>

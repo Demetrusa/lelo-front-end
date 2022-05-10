@@ -77,23 +77,23 @@ const Navigation = ({ flex }) => {
           <nav>
             <ul>
               <li>
-                <a href="/">მთავარი</a>
+                <a onClick={home}>მთავარი</a>
               </li>
               <li>
-                <a href="/news">სიახლეები</a>{" "}
+                <a onClick={navigateMore}>სიახლეები</a>{" "}
               </li>
               <li>
-                <a href="/team">გუნდი</a>{" "}
+                <a onClick={TeamContent}>გუნდი</a>{" "}
               </li>
               <li>
-                <a href="/aboutUS">ჩვენს შესახებ</a>
+                <a onClick={AboutUS}>ჩვენს შესახებ</a>
               </li>
               <li>
-                <a href="/donation">დონაცია</a>{" "}
+                <a onClick={donationPagePath}>დონაცია</a>{" "}
               </li>
               <li>
                 {" "}
-                <a href="/register">შემოგვიერთდით</a>
+                <a onClick={register}>შემოგვიერთდით</a>
               </li>
             </ul>
           </nav>
